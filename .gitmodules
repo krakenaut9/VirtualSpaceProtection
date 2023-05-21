@@ -1,0 +1,9 @@
+[submodule "mhook"]
+	path = mhook
+	url = https://github.com/apriorit/mhook
+[submodule "External/mhook"]
+	path = External/mhook
+	url = https://github.com/apriorit/mhook
+[submodule "External/plog"]
+	path = External/plog
+	url = https://github.com/SergiusTheBest/plog
