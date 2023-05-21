@@ -5,25 +5,56 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookProtection", "HookProtection\HookProtection.vcxproj", "{49416159-8C15-41BF-8A6C-BDE00D76EA2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{471E8998-2D53-48D3-89C8-7CA050E80E9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mhook", "External\mhook\build\mhook.vcxproj", "{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Debug|x64.ActiveCfg = Debug|x64
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Debug|x64.Build.0 = Debug|x64
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Debug|x86.ActiveCfg = Debug|Win32
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Debug|x86.Build.0 = Debug|Win32
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.MinSizeRel|x64.Build.0 = Release|x64
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.MinSizeRel|x86.Build.0 = Release|Win32
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Release|x64.ActiveCfg = Release|x64
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Release|x64.Build.0 = Release|x64
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Release|x86.ActiveCfg = Release|Win32
 		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.Release|x86.Build.0 = Release|Win32
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{49416159-8C15-41BF-8A6C-BDE00D76EA2E}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.Debug|x64.ActiveCfg = Debug|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.Debug|x64.Build.0 = Debug|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.Debug|x86.ActiveCfg = Debug|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.MinSizeRel|x86.ActiveCfg = MinSizeRel|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.Release|x64.ActiveCfg = Release|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.Release|x64.Build.0 = Release|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.Release|x86.ActiveCfg = Release|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06273B99-86FB-3ECF-A6B5-81C4B53F7B80} = {471E8998-2D53-48D3-89C8-7CA050E80E9E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6076A0A8-14F8-4F8F-930E-B6FD280C8DC7}

@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _Mhook_SetHook referenced in function "int (__stdcall*__cdecl hookUtils::HookFunc<int (__stdcall*)(struct HWND__ *,char const *,char const *,unsigned int)>(wchar_t const *,char const *,int (__stdcall*)(struct HWND__ *,char const *,char const *,unsigned int)))(struct HWND__ *,char const *,char const *,unsigned int)" (??$HookFunc@P6GHPAUHWND__@@PBD1I@Z@hookUtils@@YAP6GHPAUHWND__@@PBD1I@ZPB_W1P6GH011I@Z@Z)
+C:\Users\User\source\repos\VirtualSpaceProtection\External\mhook\build\Debug\mhook.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\User\source\repos\VirtualSpaceProtection\Debug\HookProtection.exe : fatal error LNK1120: 1 unresolved externals
